@@ -3,13 +3,8 @@
 
 This app helps track entries and scoring for the 2025 Golf Majors Pool contest. Use it to view leaderboards, overall standings, and tournament results for all participants.
 
+
 ## Contest Instructions
-
-As we approach the National Championship Monday night, we'll follow that immediately with the 2025 Golf Majors Pool. Feel free to forward this to anyone who would be interested. Last year, we had 110 players.
-
-**Entry Fee:** $150 covers all 4 majors. $30 goes towards each major, with the last $30 going to overall winners.
-
-**Signup:** Use the entry form link provided by the contest organizer. The link for Masters picks will come out on Tuesday.
 
 ### How It Works
 
@@ -26,18 +21,6 @@ As we approach the National Championship Monday night, we'll follow that immedia
 - After each tournament, your position determines how many points go toward your cumulative total. (e.g., if 70 players, winner gets 70 points, 2nd gets 69, ..., last gets 1. Miss the cut = 0 points.)
 - Total points across all 4 tournaments determine the overall winner.
 
-#### Payouts
-- Top 5 for each tournament and overall.
-
-#### Deadlines & Payment
-- Submit payment and complete picks by 5:00 AM CT on Thursday, April 10.
-- Payment Methods (Do NOT select goods and services):
-  - Venmo: @Max-Lord-1
-  - PayPal: mslord1991@gmail.com
-  - Zelle: mslord1991@gmail.com
-- If there is a fee taken out, you are responsible for covering it. Please don't make any obvious gambling references in memo lines.
-
-Any questions, let the organizer know. Good luck!
 
 ## App Usage
 
