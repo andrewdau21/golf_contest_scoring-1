@@ -121,7 +121,7 @@ function App() {
 	return (
 		<div style={{ background: '#f4f6f8', minHeight: '100vh' }}>
 			<div style={{ background: '#1976d2', color: '#fff', padding: '1rem 2rem', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', alignItems: 'center', gap: 12 }}>
-        <img src="https://cdn-icons-png.flaticon.com/512/1998/1998611.png" alt="golf icon" style={{ width: 36, height: 36, marginRight: 12, background: '#fff', borderRadius: '50%', padding: 4 }} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Golf.png" alt="golf ball icon" style={{ width: 36, height: 36, marginRight: 12, background: '#fff', borderRadius: '50%', padding: 4 }} />
         <Typography variant="h4" sx={{ fontWeight: 700 }}>
           Max's Golf Contest
         </Typography>
