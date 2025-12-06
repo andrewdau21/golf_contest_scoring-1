@@ -7,7 +7,7 @@ import './App.css';
 const placeholderImg = 'https://ui-avatars.com/api/?name=';
 
 const golfers = [
-	{ golfer: 'Tiger Woods', score: -5, cut: true, hole: 18, photo: `${placeholderImg}Tiger+Woods`, round: 3 },
+	{ golfer: 'Tiger Woods', score: -5, cut: true, hole: 18, photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/golf/players/full/462.png&w=350&h=254', round: 3 },
 	{ golfer: 'Rory McIlroy', score: -3, cut: true, hole: 17, photo: `${placeholderImg}Rory+McIlroy`, round: 3 },
 	{ golfer: 'Jordan Spieth', score: -2, cut: true, hole: 16, photo: `${placeholderImg}Jordan+Spieth`, round: 2 },
 	{ golfer: 'Phil Mickelson', score: 0, cut: false, hole: null, photo: `${placeholderImg}Phil+Mickelson`, round: 2 },
