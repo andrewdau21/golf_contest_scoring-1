@@ -110,7 +110,9 @@ function App() {
 	return (
 		<div style={{ background: '#f4f6f8', minHeight: '100vh' }}>
 			<div style={{ background: '#1976d2', color: '#fff', padding: '1rem 2rem', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-				<Typography variant="h4" sx={{ fontWeight: 700 }}>Golf Contest Scoreboard</Typography>
+				<Typography variant="h4" sx={{ fontWeight: 700 }}>
+          Max's Golf Contest
+        </Typography>
 			</div>
 			<div style={{ maxWidth: 900, margin: '2rem auto', background: '#fff', borderRadius: 12, boxShadow: '0 2px 16px rgba(0,0,0,0.07)', padding: '2rem' }}>
 				<Tabs value={page} onChange={(e, v) => setPage(v)} sx={{ mb: 2 }}>
