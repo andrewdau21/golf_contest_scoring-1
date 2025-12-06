@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/golf_contest_scoring-1/static/css/main.f855e6bc.css",
+    "main.js": "/golf_contest_scoring-1/static/js/main.766aa7c6.js",
+    "static/js/453.24b229a4.chunk.js": "/golf_contest_scoring-1/static/js/453.24b229a4.chunk.js",
+    "index.html": "/golf_contest_scoring-1/index.html",
+    "main.f855e6bc.css.map": "/golf_contest_scoring-1/static/css/main.f855e6bc.css.map",
+    "main.766aa7c6.js.map": "/golf_contest_scoring-1/static/js/main.766aa7c6.js.map",
+    "453.24b229a4.chunk.js.map": "/golf_contest_scoring-1/static/js/453.24b229a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.766aa7c6.js"
+  ]
+}
