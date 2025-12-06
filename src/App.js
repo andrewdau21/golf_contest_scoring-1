@@ -8,9 +8,9 @@ const placeholderImg = 'https://ui-avatars.com/api/?name=';
 
 const golfers = [
 	{ golfer: 'Tiger Woods', score: -5, cut: true, hole: 18, photo: 'https://a.espncdn.com/i/headshots/golf/players/full/462.png', round: 3 },
-	{ golfer: 'Rory McIlroy', score: -3, cut: true, hole: 17, photo: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Rory_McIlroy_2013.jpg', round: 3 },
-	{ golfer: 'Jordan Spieth', score: -2, cut: true, hole: 16, photo: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Jordan_Spieth_at_the_2015_PGA_Championship.jpg', round: 2 },
-	{ golfer: 'Phil Mickelson', score: 0, cut: false, hole: null, photo: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Phil_Mickelson_2010_Open_Championship_2.jpg', round: 2 },
+	{ golfer: 'Rory McIlroy', score: -3, cut: true, hole: 17, photo: 'https://a.espncdn.com/i/headshots/golf/players/full/3470.png', round: 3 },
+	{ golfer: 'Jordan Spieth', score: -2, cut: true, hole: 16, photo: 'https://a.espncdn.com/i/headshots/golf/players/full/5467.png', round: 2 },
+	{ golfer: 'Phil Mickelson', score: 0, cut: false, hole: null, photo: 'https://a.espncdn.com/i/headshots/golf/players/full/308.png', round: 2 },
 	{ golfer: 'Brooks Koepka', score: -1, cut: true, hole: 15, photo: `${placeholderImg}Brooks+Koepka`, round: 1 },
 	{ golfer: 'Jon Rahm', score: -4, cut: true, hole: 18, photo: `${placeholderImg}Jon+Rahm`, round: 3 },
 ];
