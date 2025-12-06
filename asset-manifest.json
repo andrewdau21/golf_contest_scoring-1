@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/golf_contest_scoring-1/static/css/main.d458369a.css",
-    "main.js": "/golf_contest_scoring-1/static/js/main.779b0c10.js",
+    "main.js": "/golf_contest_scoring-1/static/js/main.5820e726.js",
     "static/js/453.24b229a4.chunk.js": "/golf_contest_scoring-1/static/js/453.24b229a4.chunk.js",
     "index.html": "/golf_contest_scoring-1/index.html",
     "main.d458369a.css.map": "/golf_contest_scoring-1/static/css/main.d458369a.css.map",
-    "main.779b0c10.js.map": "/golf_contest_scoring-1/static/js/main.779b0c10.js.map",
+    "main.5820e726.js.map": "/golf_contest_scoring-1/static/js/main.5820e726.js.map",
     "453.24b229a4.chunk.js.map": "/golf_contest_scoring-1/static/js/453.24b229a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d458369a.css",
-    "static/js/main.779b0c10.js"
+    "static/js/main.5820e726.js"
   ]
 }
