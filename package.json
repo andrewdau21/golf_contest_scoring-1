@@ -1,5 +1,6 @@
 {
   "name": "golf_contest_scoring-1",
+  "homepage": "https://andrewdau21.github.io/golf_contest_scoring-1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "ag-grid-community": "^34.3.1",
     "ag-grid-react": "^34.3.1",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.1",
     "react-data-table-component": "^7.7.0",
     "react-dom": "^19.2.1",
@@ -22,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

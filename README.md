@@ -36,19 +36,26 @@ This app helps track entries and scoring for the 2025 Golf Majors Pool contest. 
 	```
 	The app will run at http://localhost:3000
 
-### Production Build & Docker
 
-To build and run with Docker (for Digital Ocean App Platform):
+### Deploy to GitHub Pages
 
-1. Build the app:
+1. Install the gh-pages package:
 	```sh
-	npm run build
+	npm install --save gh-pages
 	```
-2. Build and run the Docker container:
+2. Ensure your `package.json` includes:
+	```json
+	"homepage": "https://andrewdau21.github.io/golf_contest_scoring-1",
+	"scripts": {
+	  "predeploy": "npm run build",
+	  "deploy": "gh-pages -d build"
+	}
+	```
+3. Deploy your app:
 	```sh
-	docker build -t golf-majors-app .
-	docker run -p 80:80 golf-majors-app
+	npm run deploy
 	```
+	Your app will be live at: https://andrewdau21.github.io/golf_contest_scoring-1
 
 ## Features
 
