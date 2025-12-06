@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .rdt_Table {
+    font-size: 0.95rem;
+  }
+  .MuiBox-root, .MuiPaper-root, .MuiContainer-root {
+    padding: 0.5rem !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+  .rdt_TableCol, .rdt_TableCell {
+    padding: 4px !important;
+  }
+  .MuiTabs-root {
+    flex-direction: column;
+  }
+  .MuiTypography-h4, .MuiTypography-h5 {
+    font-size: 1.2rem !important;
+  }
+  .rdt_ExpanderRow {
+    padding: 0 !important;
+  }
+  .rdt_TableRow {
+    min-height: 36px !important;
+  }
+  table {
+    font-size: 0.9rem;
+  }
+  img {
+    max-width: 36px !important;
+    max-height: 28px !important;
+  }
+}
