@@ -8,9 +8,9 @@ const placeholderImg = 'https://ui-avatars.com/api/?name=';
 
 const golfers = [
 	{ golfer: 'Tiger Woods', score: -5, cut: true, hole: 18, photo: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Tiger_Woods_in_2019.png', round: 3 },
-	{ golfer: 'Rory McIlroy', score: -3, cut: true, hole: 17, photo: `${placeholderImg}Rory+McIlroy`, round: 3 },
-	{ golfer: 'Jordan Spieth', score: -2, cut: true, hole: 16, photo: `${placeholderImg}Jordan+Spieth`, round: 2 },
-	{ golfer: 'Phil Mickelson', score: 0, cut: false, hole: null, photo: `${placeholderImg}Phil+Mickelson`, round: 2 },
+	{ golfer: 'Rory McIlroy', score: -3, cut: true, hole: 17, photo: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Rory_McIlroy_2013.jpg', round: 3 },
+	{ golfer: 'Jordan Spieth', score: -2, cut: true, hole: 16, photo: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Jordan_Spieth_at_the_2015_PGA_Championship.jpg', round: 2 },
+	{ golfer: 'Phil Mickelson', score: 0, cut: false, hole: null, photo: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Phil_Mickelson_2010_Open_Championship_2.jpg', round: 2 },
 	{ golfer: 'Brooks Koepka', score: -1, cut: true, hole: 15, photo: `${placeholderImg}Brooks+Koepka`, round: 1 },
 	{ golfer: 'Jon Rahm', score: -4, cut: true, hole: 18, photo: `${placeholderImg}Jon+Rahm`, round: 3 },
 ];
@@ -71,7 +71,13 @@ const ExpandedComponent = ({ data }) => (
 			<tbody>
 				{data.team.map((g, idx) => (
 					<tr key={idx}>
-						<td style={{ padding: '4px 8px' }}><img src={g.photo} alt={g.golfer} style={{ width: 40, height: 40, borderRadius: '50%' }} /></td>
+						<td style={{ padding: '4px 8px' }}>
+							<img 
+								src={g.photo} 
+								alt={g.golfer} 
+								style={{ width: 48, height: 36, objectFit: 'cover', borderRadius: 8, background: '#eee' }} 
+							/>
+						</td>
 						<td style={{ padding: '4px 8px' }}>{g.golfer}</td>
 						<td style={{ padding: '4px 8px' }}>{g.score}</td>
 						<td style={{ padding: '4px 8px' }}>{g.cut ? '✅' : '❌'}</td>
