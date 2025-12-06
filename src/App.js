@@ -13,6 +13,11 @@ const golfers = [
 	{ golfer: 'Phil Mickelson', score: 0, cut: false, hole: null, photo: 'https://a.espncdn.com/i/headshots/golf/players/full/308.png', round: 2 },
 	{ golfer: 'Brooks Koepka', score: -1, cut: true, hole: 15, photo: `${placeholderImg}Brooks+Koepka`, round: 1 },
 	{ golfer: 'Jon Rahm', score: -4, cut: true, hole: 18, photo: `${placeholderImg}Jon+Rahm`, round: 3 },
+	{ golfer: 'Sam Ryder', score: 2, cut: false, hole: 10, photo: `${placeholderImg}Sam+Ryder`, round: 2 },
+	{ golfer: 'Lucas Glover', score: 1, cut: true, hole: 12, photo: `${placeholderImg}Lucas+Glover`, round: 2 },
+	{ golfer: 'Adam Scott', score: -1, cut: true, hole: 14, photo: `${placeholderImg}Adam+Scott`, round: 3 },
+	{ golfer: 'Rickie Fowler', score: 0, cut: false, hole: 8, photo: `${placeholderImg}Rickie+Fowler`, round: 1 },
+	{ golfer: 'Tony Finau', score: -2, cut: true, hole: 16, photo: `${placeholderImg}Tony+Finau`, round: 3 },
 ];
 
 const golferNames = Array.from(new Set(golfers.map(g => g.golfer)));
@@ -44,7 +49,7 @@ const dummyEntries = [
 		points: 95,
 		score: -8,
 		madeCut: 2,
-		team: [golfers[1], golfers[2], golfers[3], golfers[4], golfers[5], golfers[0]], // different order, unique set
+		team: [golfers[0], golfers[6], golfers[7], golfers[8], golfers[9], golfers[10]], // Tiger + 5 new
 	},
 ];
 
@@ -116,7 +121,7 @@ function App() {
 	return (
 		<div style={{ background: '#f4f6f8', minHeight: '100vh' }}>
 			<div style={{ background: '#1976d2', color: '#fff', padding: '1rem 2rem', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', alignItems: 'center', gap: 12 }}>
-        <img src="https://cdn-icons-png.flaticon.com/512/861/861512.png" alt="golfer icon" style={{ width: 36, height: 36, marginRight: 12, background: '#fff', borderRadius: '50%', padding: 4 }} />
+        <img src="https://cdn-icons-png.flaticon.com/512/1998/1998611.png" alt="golf icon" style={{ width: 36, height: 36, marginRight: 12, background: '#fff', borderRadius: '50%', padding: 4 }} />
         <Typography variant="h4" sx={{ fontWeight: 700 }}>
           Max's Golf Contest
         </Typography>
