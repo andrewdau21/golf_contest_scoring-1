@@ -1,43 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 2025 Golf Majors Pool Scoreboard App
 
-## Available Scripts
+This app helps track entries and scoring for the 2025 Golf Majors Pool contest. Use it to view leaderboards, overall standings, and tournament results for all participants.
 
-In the project directory, you can run:
+## Contest Instructions
 
-### `npm start`
+As we approach the National Championship Monday night, we'll follow that immediately with the 2025 Golf Majors Pool. Feel free to forward this to anyone who would be interested. Last year, we had 110 players.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Entry Fee:** $150 covers all 4 majors. $30 goes towards each major, with the last $30 going to overall winners.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Signup:** Use the entry form link provided by the contest organizer. The link for Masters picks will come out on Tuesday.
 
-### `npm test`
+### How It Works
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- For each major, players are split into 6 groups based on odds to win the tournament.
+- You choose 1 player from each of the 6 groups to make up your team.
+- Your score is the total of your best 4 players overall (not each day).
+- At least 4 of your players must make the cut for your team to make the cut.
+- Updated leaderboards will be sent following the conclusion of each round.
 
-### `npm run build`
+#### Tiebreakers
+- For the winner only: First tiebreaker is most players to make the cut, then lowest total of all remaining players.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Overall Scoring
+- After each tournament, your position determines how many points go toward your cumulative total. (e.g., if 70 players, winner gets 70 points, 2nd gets 69, ..., last gets 1. Miss the cut = 0 points.)
+- Total points across all 4 tournaments determine the overall winner.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Payouts
+- Top 5 for each tournament and overall.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Deadlines & Payment
+- Submit payment and complete picks by 5:00 AM CT on Thursday, April 10.
+- Payment Methods (Do NOT select goods and services):
+  - Venmo: @Max-Lord-1
+  - PayPal: mslord1991@gmail.com
+  - Zelle: mslord1991@gmail.com
+- If there is a fee taken out, you are responsible for covering it. Please don't make any obvious gambling references in memo lines.
 
-### `npm run eject`
+Any questions, let the organizer know. Good luck!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## App Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Local Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Install dependencies:
+	```sh
+	npm install
+	```
+2. Start the app:
+	```sh
+	npm start
+	```
+	The app will run at http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Production Build & Docker
+
+To build and run with Docker (for Digital Ocean App Platform):
+
+1. Build the app:
+	```sh
+	npm run build
+	```
+2. Build and run the Docker container:
+	```sh
+	docker build -t golf-majors-app .
+	docker run -p 80:80 golf-majors-app
+	```
+
+## Features
+
+- Leaderboard with expandable team details
+- Overall standings and tournament standings pages
+- Search and filter by golfer name
+
+## License
+
+MIT
 
 ## Learn More
 
