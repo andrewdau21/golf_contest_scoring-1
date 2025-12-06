@@ -44,7 +44,7 @@ const dummyEntries = [
 		points: 95,
 		score: -8,
 		madeCut: 2,
-		team: [golfers[0], golfers[1], golfers[2], golfers[3], golfers[4], golfers[5]],
+		team: [golfers[1], golfers[2], golfers[3], golfers[4], golfers[5], golfers[0]], // different order, unique set
 	},
 ];
 
@@ -115,11 +115,12 @@ function App() {
 
 	return (
 		<div style={{ background: '#f4f6f8', minHeight: '100vh' }}>
-			<div style={{ background: '#1976d2', color: '#fff', padding: '1rem 2rem', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
-				<Typography variant="h4" sx={{ fontWeight: 700 }}>
+			<div style={{ background: '#1976d2', color: '#fff', padding: '1rem 2rem', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', display: 'flex', alignItems: 'center', gap: 12 }}>
+        <img src="https://cdn-icons-png.flaticon.com/512/861/861512.png" alt="golfer icon" style={{ width: 36, height: 36, marginRight: 12, background: '#fff', borderRadius: '50%', padding: 4 }} />
+        <Typography variant="h4" sx={{ fontWeight: 700 }}>
           Max's Golf Contest
         </Typography>
-			</div>
+      </div>
 			<div style={{ maxWidth: 900, margin: '2rem auto', background: '#fff', borderRadius: 12, boxShadow: '0 2px 16px rgba(0,0,0,0.07)', padding: '2rem' }}>
 				<Box sx={{ overflowX: 'auto', mb: 2 }}>
           <Tabs
