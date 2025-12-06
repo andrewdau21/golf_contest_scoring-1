@@ -121,14 +121,19 @@ function App() {
         </Typography>
 			</div>
 			<div style={{ maxWidth: 900, margin: '2rem auto', background: '#fff', borderRadius: 12, boxShadow: '0 2px 16px rgba(0,0,0,0.07)', padding: '2rem' }}>
-				<Tabs value={page} onChange={(e, v) => setPage(v)} sx={{ mb: 2 }}>
-					<Tab label="Leaderboard" />
-					<Tab label="Overall Standings" />
-					<Tab label="Tournament Standings" />
-				</Tabs>
+				<Box sx={{ overflowX: 'auto', mb: 2 }}>
+          <Tabs
+            value={page}
+            onChange={(e, v) => setPage(v)}
+            sx={{ minWidth: 400, width: 'max-content' }}
+          >
+            <Tab label="Leaderboard" />
+            <Tab label="Overall Standings" />
+            <Tab label="Tournament Standings" />
+          </Tabs>
+        </Box>
 				{page === 0 && (
-					<Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 2 }}>
-						<Typography variant="h5" sx={{ color: '#1976d2', fontWeight: 600 }}>Leaderboard</Typography>
+					<Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', mb: 2 }}>
 						<Autocomplete
 							freeSolo
 							options={golferNames}
